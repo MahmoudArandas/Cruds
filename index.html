@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="stayl.css">
+    </head>
+    <body>
+        <div class="head">
+
+            <div class="nav">
+                <h2>main cruds</h2>
+            <p>presntation projact</p>
+            </div>
+        </div>
+
+
+
+        <div class="inputs">
+            <input  type="text" placeholder="title" id="title">
+            <div class="price">
+                <input onkeyup="getData()"  type="number" name="" placeholder="price" id="price">
+                <input onkeyup="getData()"  type="number" name="" placeholder="taxes" id="taxes">
+                <input onkeyup="getData()"  type="number" name="" placeholder="ads" id="ads">
+                <input onkeyup="getData()"  type="number" name="" placeholder="descount" id="descount">
+
+                <small id="total" ></small>
+            </div>
+            <input type="number" name="" placeholder="count" id="count">
+            <input type="text" placeholder="category" id="category">
+
+        </div>
+
+
+        <div class="outputs">
+            <div class="creat">
+                <button id="creat">create</button>
+            </div>
+            <div class="searchblock">
+                <input type="text" onkeyup="searchData(this.value)" placeholder="search..." id="search">
+                <div class="searchtap">
+                    <button onclick="getSearch(this.id)" id="searchtitle">search by title</button>
+                    <button onclick="getSearch(this.id)" id="searchcategory">search by category</button>
+
+                </div>
+            </div>
+           
+
+
+
+        </div>
+
+        <div id="deleteAll">
+
+        </div>
+        
+
+        <table>
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>title</th>
+                    <th>price</th>
+                    <th>qty</th>
+                    <th>taxes</th>
+                    <th>ads</th>
+                    <th>descount</th>
+                    <th class="to">total</th>
+                    <th>category</th>
+                    <th>update</th>
+                    <th>delete</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                
+            </tbody>
+        </table>
+
+
+
+        <script src="main.js" ></script>
+    </body>
+</html>

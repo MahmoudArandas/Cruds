@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(21, 21, 22);
+}
+.nav{
+    width: 80%;
+    margin: auto;
+   color: white;
+    text-align: center;
+    text-transform: capitalize;
+}
+#title{
+    width: 80%;
+    margin-left:10%;
+
+    
+
+}
+.price{
+    width: 80%;
+    margin: auto;
+    
+}
+input{
+    width: 20%;
+    background-color: rgb(198, 182, 237);
+    margin: 7px 4px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    transform: 1.1;
+    color: rgb(13, 13, 13);
+}
+input:hover{
+    background-color: rgb(97, 73, 168);
+    transform: 1.1s;
+
+
+}
+.to{
+    color:black ;
+}
+#total{
+    background-color: red;
+    padding: 7px;
+    border-radius: 5px;
+}
+#total::before{
+    content:'total:';
+}
+#count{
+    width: 80%;
+    margin-left: 10%;
+    
+}
+#category{
+    width: 80%;
+    margin-left: 10%;
+}
+#creat{
+    width: 80%;
+    margin-left: 10%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(62, 21, 175);
+    transition: 0.5s;
+    font-size: large;
+    text-transform: capitalize;
+    color: white;
+}
+#creat:hover{
+    background-color: rgb(105, 82, 166);;
+    letter-spacing: 2px;
+
+}
+#search{
+    width: 80%;
+    margin-left: 10%;
+    height: 50px;
+
+}
+.searchtap{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+.searchtap button{
+    width: 40%;
+    background-color: rgb(72, 23, 209);
+    text-transform: capitalize;
+    padding: 12px;
+    margin: 5px 0;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    transform: 1.1;
+    transition: 0.5s;
+
+}
+.searchtap button:hover{
+    letter-spacing: 2px;
+    background-color: rgb(128, 93, 223);
+
+}
+table{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    padding: 10px;
+   color: white;
+   text-transform: capitalize;
+}
+table tr td{
+    padding: 15px 5px;
+    color: greenyellow;
+}
+table tr #update{
+    border: none;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    color: rgb(7, 159, 159);
+    background-color: rgba(0, 0, 0 , 0.5);
+}
+table tr #update:hover{
+    color: rgb(37, 229, 229);
+
+}
+table tr #delete{
+    border: none;
+    width: 55px;
+    height: 30px;
+    border-radius: 10px;
+    color: rgb(255, 32, 7)
+}
+table tr #delete:hover{
+    color: rgb(244, 112, 98)
+}
+#deleteAll button{
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgb(131, 43, 226);
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    text-transform: capitalize;
+}
